@@ -18,7 +18,7 @@ function Nav() {
       <a href="#">Link 3</a>
     </div>
   </div>
-  <a href="#about">About</a>
+  <a href="#about">Donate</a>
   <a href="javascript:void(0);" className="icon" onclick="myFunction()">&#9776;</a>
 </div>
     )

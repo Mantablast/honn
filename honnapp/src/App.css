@@ -40,12 +40,13 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: #7c2302;
 }
 
 .hero {
   /* Sizing */
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   /* Flexbox stuff */
   display: flex;
   justify-content: center;
@@ -53,11 +54,12 @@ body {
   /* Text styles */
   text-align: center;
       /* Background styles */
-      background-image:  url(https://images.unsplash.com/photo-1467396555244-ddb071a5841d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1448&q=80);
+      background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(248, 242, 242, 0.678)),url(https://images.unsplash.com/photo-1467396555244-ddb071a5841d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1448&q=80);
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
       background-attachment: fixed;
+  
 }
 
 .hero h1 {
@@ -68,12 +70,15 @@ body {
       margin-bottom: 0.5em;
 }
 
-
+.hero-inner img {
+  width: 70vw;
+  height: auto;
+}
 
 /*nav bar stuff */
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #7c2302;
   overflow: hidden;
 }
 
@@ -83,14 +88,14 @@ body {
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 30px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #04AA6D;
+  background-color: #7c2302;
   color: white;
 }
 
@@ -142,14 +147,17 @@ body {
 
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: #020664;
   color: white;
+  padding: 15px 15px;
+  border-radius: 20px;
 }
 
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
   color: black;
+  padding:15px 15px;
 }
 
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
@@ -188,4 +196,41 @@ body {
     width: 100%;
     text-align: left;
   }
+}
+
+/* homepage cards */
+.card-group {
+  display: inline-block;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.homecard {
+  border: 2px solid black;
+  height: 150px;
+  width: 20vw;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ddd;
+  padding-top: 10px;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.homecard button {
+  background-color: #7c2302;
+  color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding:10px;
+}
+.cardtitle {
+ padding-bottom: 10px;
 }

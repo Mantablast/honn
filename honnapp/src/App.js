@@ -10,6 +10,7 @@ import Policy from './pages/Policy';
 import Home from './pages/Home';
 import News from './pages/News';
 import Footer from './components/Footer';
+import { Card, CardColumns, CardGroup, Body, Img, Text, Deck, Title, Button } from 'react-bootstrap';
 
 function App() {
   return (
