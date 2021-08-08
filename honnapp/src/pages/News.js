@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function News() {
     return (
-        <div></div>
+        <div>
+            <h3>This is the news page</h3>
+        </div>
     )
 }
 

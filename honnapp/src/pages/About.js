@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function About() {
     return (
-        <div></div>
+        <div>
+            <h2>The about page</h2>
+        </div>
     )
 }
 

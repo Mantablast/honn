@@ -9,6 +9,7 @@ import Connect from './pages/Connect';
 import Policy from './pages/Policy';
 import Home from './pages/Home';
 import News from './pages/News';
+import Rules from './pages/Rules';
 import Footer from './components/Footer';
 import { Card, CardColumns, CardGroup, Body, Img, Text, Deck, Title, Button } from 'react-bootstrap';
 
@@ -25,6 +26,7 @@ function App() {
             <Route exact path="/connect" component={Connect} />
             <Route exact path="/apply" component={Apply} />
             <Route exact path="/policy" component={Policy}/>
+            <Route exact path="/rules" component={Rules}/>
           </Switch>
         </Router>
       </main>

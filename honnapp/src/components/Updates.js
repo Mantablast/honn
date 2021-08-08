@@ -5,7 +5,6 @@ function Updates() {
     return (
         <div>
             <h2>Recent News and Updates</h2>
-            
         </div>
     )
 }

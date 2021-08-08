@@ -2,50 +2,28 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import React, { useState } from 'react';
 
 function Nav() {
-    return (
-        <div className="topnav" id="myTopnav">
-  <Link to="/" className="active">Home</Link>
-  <Link to="/about">About</Link>
-  <Link to="/connect">Connect</Link>
-  <Link to="/news">News</Link>
-  <div className="dropdown">
-    <button className="dropbtn">Apply
-      <i className="fa fa-caret-down"></i>
-    </button>
-    <div className="dropdown-content">
-    <Link to="/rules">Rules</Link>
-      <Link to="/apply">Apply Here</Link>
-      <a href="#">Link 3</a>
+  return (
+    <div className="nav-box">
+      <div className="topnav" id="myTopnav">
+        <Link to="/" className="active">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/connect">Connect</Link>
+        <Link to="/news">News</Link>
+        <div className="dropdown">
+          <button className="dropbtn">Apply
+            <i className="fa fa-caret-down"></i>
+          </button>
+          <div className="dropdown-content">
+            <Link to="/rules">Rules</Link>
+            <a href="https://form.jotform.com/73094247767265?fbclid=IwAR3OSCa8Syfg3cVLPjrMAsnjjJ5WzQ1uD4pdOSbYSKbBoemJqbdNjUgLEBY" target="_blank">Apply Here</a>
+          </div>
+        </div>
+        <a href="javascript:void(0);" className="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+        <a href="https://form.jotform.com/212186680940256" target="_blank"><img className="donate-img" src='https://user-images.githubusercontent.com/71906988/128613331-e6e3d30a-d8a6-46e9-b3ff-89ecca5d1a0f.png'></img></a>
+    
     </div>
-  </div>
-  <a href="#about">Donate</a>
-  <a href="javascript:void(0);" className="icon" onclick="myFunction()">&#9776;</a>
-</div>
-    )
+  )
 }
 
 export default Nav;
-
-<nav>
-        <div className="nav-wrapper 1a237e 1a237e indigo darken-4">
-          <a href="#" className="brand-logo center">
-          🚀Aimee Jesso 🚀
-          </a>
-          
-          <ul id="nav-mobile" className="right">
-            <li>
-            <Link to="/aboutme">About</Link>
-            </li>
-            <li>
-            <Link to="/portfolio">Portfolio</Link>
-            </li>
-            <li>
-            <Link to="/contact">Contact</Link>
-            </li>
-            <li>
-            <Link to="/resume">Resume</Link>
-            </li>
-          </ul>
-        </div>
-        <div className="banner"></div>
-      </nav>
