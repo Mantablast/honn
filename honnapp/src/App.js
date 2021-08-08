@@ -10,6 +10,8 @@ import Policy from './pages/Policy';
 import Home from './pages/Home';
 import News from './pages/News';
 import Rules from './pages/Rules';
+import Help from './pages/Help';
+import Newsletter from './pages/Newsletter';
 import Footer from './components/Footer';
 import { Card, CardColumns, CardGroup, Body, Img, Text, Deck, Title, Button } from 'react-bootstrap';
 
@@ -27,6 +29,8 @@ function App() {
             <Route exact path="/apply" component={Apply} />
             <Route exact path="/policy" component={Policy}/>
             <Route exact path="/rules" component={Rules}/>
+            <Route exact path="/help" component={Help}/>
+            <Route exact path="/newsletter" component={Newsletter}/>
           </Switch>
         </Router>
       </main>

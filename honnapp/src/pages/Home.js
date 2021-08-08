@@ -1,8 +1,9 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route , Link} from "react-router-dom";
 import React, { useState } from 'react';
 import { Card, CardColumns, CardGroup, Body, Footer, Img, Text, Deck, Title, Button } from 'react-bootstrap';
 import Updates from '../components/Updates';
-
+import { Document, Page } from 'react-pdf';
+import Pdf from '../NewsletterAugust2021.pdf'
 function Home() {
 
     return (
@@ -15,20 +16,26 @@ function Home() {
             <div className="card-group">
                 <div className="homecard">
                     <h3 className="cardtitle">
-                        Latest News
+                        Latest Newsletter
                     </h3>
                     <p>Get the latest info</p>
-                    <button>Updates</button>
+                    {/* <Link to="/newsletter"><button>
+                            August 2021
+                        </button>
+                    </Link> */}
+                    <a href={Pdf} target='_blank' rel='noopener noreferrer'><button>August 2021</button></a>
                 </div>
             </div>
 
             <div className="card-group">
                 <div className="homecard">
                     <h3 className="cardtitle">
-                        Learn Ways to Help
-                    </h3>
+                        Learn Ways to Help</h3>
                     <p>Donations big or small help</p>
-                    <button>Help Today</button>
+                    <Link to="/help"><button>
+                        Help today
+                    </button>
+                    </Link>
                 </div>
             </div>
 
@@ -38,7 +45,7 @@ function Home() {
                         Apply for Help
                     </h3>
                     <p>Complete the application</p>
-                    <button>Apply for Help</button>
+                    <button><a href="https://form.jotform.com/212186680940256" target="_blank">Apply for Help</a></button>
                 </div>
             </div>
             <Updates />
@@ -47,3 +54,6 @@ function Home() {
 }
 
 export default Home;
+
+
+<a href="https://form.jotform.com/212186680940256" target="_blank">Apply for Help</a>

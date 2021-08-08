@@ -244,6 +244,10 @@ body {
   padding:10px;
 }
 
+.homecard a {
+  text-decoration: none;
+}
+
 .homecard button:hover {
   background-color: navy;
 }
@@ -304,4 +308,56 @@ body {
 
 .footer {
   height: fit-content;
+}
+
+.rule-box {
+  margin: 70px;
+}
+
+.list-group li {
+  padding: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.small-logo {
+  width: 50vw;
+  height: auto;
+}
+
+.help-box {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.help-box li {
+  padding-bottom: 3px;
+}
+
+.home-updates {
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.home-updates p, .home-updates h2, .home-updates h3, .home-updates h4 {
+  color: black;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+.home-updates a {
+  color: #7c2302;
+  padding-bottom: 10px;
+}
+
+.home-updates a:hover {
+  color: navy;
 }
