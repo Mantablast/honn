@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/honn/static/css/main.f972577d.chunk.css",
-    "main.js": "/honn/static/js/main.ad48018e.chunk.js",
-    "main.js.map": "/honn/static/js/main.ad48018e.chunk.js.map",
+    "main.css": "/honn/static/css/main.dc071ef6.chunk.css",
+    "main.js": "/honn/static/js/main.7100851d.chunk.js",
+    "main.js.map": "/honn/static/js/main.7100851d.chunk.js.map",
     "runtime-main.js": "/honn/static/js/runtime-main.6ec5adfc.js",
     "runtime-main.js.map": "/honn/static/js/runtime-main.6ec5adfc.js.map",
     "static/js/2.fdd02b57.chunk.js": "/honn/static/js/2.fdd02b57.chunk.js",
@@ -12,7 +12,7 @@
     "94c6b32c04e18bb0ebb4ce2e325e1f78.js": "/honn/94c6b32c04e18bb0ebb4ce2e325e1f78.js",
     "94c6b32c04e18bb0ebb4ce2e325e1f78.js.LICENSE.txt": "/honn/94c6b32c04e18bb0ebb4ce2e325e1f78.js.LICENSE.txt",
     "index.html": "/honn/index.html",
-    "static/css/main.f972577d.chunk.css.map": "/honn/static/css/main.f972577d.chunk.css.map",
+    "static/css/main.dc071ef6.chunk.css.map": "/honn/static/css/main.dc071ef6.chunk.css.map",
     "static/js/2.fdd02b57.chunk.js.LICENSE.txt": "/honn/static/js/2.fdd02b57.chunk.js.LICENSE.txt",
     "static/media/NewsletterAugust2021.582481eb.pdf": "/honn/static/media/NewsletterAugust2021.582481eb.pdf",
     "static/media/logo.6ce24c58.svg": "/honn/static/media/logo.6ce24c58.svg"
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.6ec5adfc.js",
     "static/js/2.fdd02b57.chunk.js",
-    "static/css/main.f972577d.chunk.css",
-    "static/js/main.ad48018e.chunk.js"
+    "static/css/main.dc071ef6.chunk.css",
+    "static/js/main.7100851d.chunk.js"
   ]
 }
